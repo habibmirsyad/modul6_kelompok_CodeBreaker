@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modul6_kelompok_CodeBreaker", "modul6_kelompok_CodeBreaker.csproj", "{5ADCFB4D-025F-49A9-B26F-C4BDB4AA6F79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "modul6_kelompok_CodeBreaker", "modul6_kelompok_CodeBreaker.csproj", "{5ADCFB4D-025F-49A9-B26F-C4BDB4AA6F79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5FDDE22E-27D0-4EC3-8448-51A60F9D60AA}"
+	ProjectSection(SolutionItems) = preProject
+		bin\Debug\net6.0\jurnal6_1_1302201133.json = bin\Debug\net6.0\jurnal6_1_1302201133.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
