@@ -13,6 +13,11 @@ namespace modul6_1302201138
 
             TimMembers1302201138 tim = new TimMembers1302201138();
             tim.ReadJSON();
+
+            Console.WriteLine("");
+
+            GlossaryItem glossaryItem = new GlossaryItem();
+            glossaryItem.ReadJSON();
         }
     }
 }
