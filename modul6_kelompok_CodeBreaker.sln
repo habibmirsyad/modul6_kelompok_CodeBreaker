@@ -8,6 +8,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE76C868-8109-4BAC-BA4F-15D501F61CEB}"
 	ProjectSection(SolutionItems) = preProject
 		..\6\jurnal6_1_1302201138.json = ..\6\jurnal6_1_1302201138.json
+		..\6\jurnal6_2_1302201138.json = ..\6\jurnal6_2_1302201138.json
+		TimMembers1302201138.cs = TimMembers1302201138.cs
 	EndProjectSection
 EndProject
 Global

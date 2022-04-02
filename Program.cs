@@ -8,6 +8,11 @@ namespace modul6_1302201138
         {
             DataMahasiswa1302201138 data = new DataMahasiswa1302201138();
             data.ReadJSON();
+
+            Console.WriteLine("");
+
+            TimMembers1302201138 tim = new TimMembers1302201138();
+            tim.ReadJSON();
         }
     }
 }
