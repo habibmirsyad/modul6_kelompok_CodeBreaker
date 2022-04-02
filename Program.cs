@@ -6,5 +6,8 @@ class main
     {
         DataMahasiswa1302204054 mhsA1 = new DataMahasiswa1302204054();
         mhsA1.ReadJSON();
+
+        TeamMembers1302204054 mhsA2 = new TeamMembers1302204054();
+        mhsA2.ReadJSON();
     }
 }
