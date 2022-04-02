@@ -11,6 +11,9 @@ namespace modul6_kelompok_CodeBreaker
 
             TeamMembers1302204047 member1 = new TeamMembers1302204047();
             member1.ReadJSON();
+
+            GlossaryItem1302204047 glossary = new GlossaryItem1302204047();
+            glossary.ReadJSON();
         }
     }
 }
