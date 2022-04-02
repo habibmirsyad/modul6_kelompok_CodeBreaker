@@ -1,9 +1,16 @@
 ﻿using System;
-class main;
+
+namespace modul6_kelompok_CodeBreaker
 {
-    public static void Main()
+    public class main
     {
-        DataMahasiswa1302204047 mhs1 = new DataMahasiswa1302204047();
-        mhs1.ReadJSON();
+        public static void Main()
+        {
+            DataMahasiswa1302204047 mhs1 = new DataMahasiswa1302204047();
+            mhs1.ReadJSON();
+
+            TeamMembers1302204047 member1 = new TeamMembers1302204047();
+            member1.ReadJSON();
+        }
     }
 }
