@@ -5,6 +5,11 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modul6_kelompok_CodeBreaker", "modul6_kelompok_CodeBreaker.csproj", "{5ADCFB4D-025F-49A9-B26F-C4BDB4AA6F79}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE76C868-8109-4BAC-BA4F-15D501F61CEB}"
+	ProjectSection(SolutionItems) = preProject
+		..\6\jurnal6_1_1302201138.json = ..\6\jurnal6_1_1302201138.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

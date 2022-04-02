@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.Text.Json;
+
+namespace modul6_1302201138
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            DataMahasiswa1302201138 data = new DataMahasiswa1302201138();
+            data.ReadJSON();
+        }
+    }
+}
