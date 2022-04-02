@@ -1,0 +1,61 @@
+using System;
+using System.Diagnostics.Contracts;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Modul6_codebreaker
+{
+    public class DataMahasiswa_1302204050
+    {
+        public class DataMahasiswa
+        {
+            public string firstname { get; set; }
+            public string lastname { get; set; }
+            public string gender { get; set; }
+            public string age { get; set; }
+            public string address { get; set; }
+        }
+
+        public void ReadJSON()
+        {
+            string file = "Modul6_1302204050.json";
+            string dataStr = File.ReadAllText(file);
+            DataMahasiswa dataMahasiswa = JsonSerializer.Deserialize<DataMahasiswa>(dataStr);
+            
+            this.firstName = jsonData.firstName;
+            this.lastName = jsonData.lastName;
+            this.gender = jsonData.gender;
+            this.age = jsonData.age;
+            this.address = jsonData.address;
+
+            Console.WriteLine($"Nama {dataMahasiswa.nama} dengan Gender {dataMahasiswa.gender} dari age {dataMahasiswa.age}");
+        }
+        {
+           "firstName": "Aniko",
+           "lastName": "Rochman",
+           "gender": "male",
+           "age": 21,
+           "address": {
+           "city": "Yogyakarta",
+           "state": "DIY"
+        },
+        {
+          "firstName": "Aditya Mardi",
+          "lastName": "Pratama",
+          "gender": "male",
+          "age": 19,
+          "address": {
+          "city" : "depok"
+        },
+        {
+          "firstName": "Anugrah Saputra",
+          "lastName": "Aras",
+          "gender": "male",
+          "age": 20,
+          "address": {
+          "city" : "Sulawesi"
+        },
+    }
+}
